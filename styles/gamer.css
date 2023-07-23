@@ -132,13 +132,6 @@ nav li a{
     font-size: 3rem;
     font-weight: 700;
 }
-.funny-child{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-size: 48px;
-    font-weight: 700;
-}
 .funny-description{
     color: #534C64;
     text-align: center;
@@ -152,7 +145,7 @@ nav li a{
 .funny-img{
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     
 }
 .img-description{
