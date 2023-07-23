@@ -154,3 +154,22 @@ nav li a{
     font-size: 1.4rem;
     font-weight: 500;
 }
+.play-section{
+    display: flex;
+    justify-content:space-around;
+}
+.play-title{
+    text-align: center;
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+/
+.play-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
