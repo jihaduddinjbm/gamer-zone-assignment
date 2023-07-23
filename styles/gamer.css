@@ -108,10 +108,11 @@ nav li a{
 }
 .btn-third{
     color: #FFF;
+    padding: 10px 20px;
     font-size: 1.4rem;
     font-weight: 600;
     border: 1px solid thistle;
-    border-radius: 20px;
+    border-radius: 40px;
     background-color: #FF42A5;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -121,4 +122,42 @@ nav li a{
     font-size: 2rem;
     font-weight: 700;
     margin-top: 0;
+}
+.section{
+    padding: 30px;
+}
+.funny-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.funny-child{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.banner-funny{
+    display: flex;
+    
+}
+.funny-img{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    
+}
+.img-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
