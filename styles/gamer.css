@@ -13,8 +13,10 @@
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    text-align:center ;
+   
 }
 .text-title{
     font-size: 2.8rem;
@@ -171,5 +173,20 @@ nav li a{
     text-align: center;
     font-size: 1.2rem;
     font-weight: 400;
+
+}
+.Games{
+    display: flex;
+}
+.games-icon{
+    background: #FFF;
+    padding: 70px;
+    border: 1px solid yellow;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
 
 }
