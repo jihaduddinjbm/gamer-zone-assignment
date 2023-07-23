@@ -54,7 +54,7 @@ nav li a{
     text-align: center;
     font-size: 3rem;
    font-weight: 600;
-   text-transform: uppercase;
+   
 }
 .banner-child{
     text-align: center;
@@ -77,12 +77,10 @@ nav li a{
     color: #FFF;
     border: 1px solid tomato;
     background-color: #FF42A5;
-    align-items: flex-start;
     border-radius: 40px;
 }
 .btn-second{
     padding: 20px 40px;
-    align-items: flex-start;
     border-radius: 40px;
     background: #4EC5F7;
 }
