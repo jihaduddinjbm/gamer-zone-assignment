@@ -84,3 +84,40 @@ nav li a{
     border-radius: 40px;
     background: #4EC5F7;
 }
+.banner-gamer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: right;
+
+}
+.gamer-title{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%)
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.gamer-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.btn-third{
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: 1px solid thistle;
+    border-radius: 20px;
+    background-color: #FF42A5;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.gamer-child{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+}
