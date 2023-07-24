@@ -14,6 +14,7 @@
     padding: 30px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
    
    
 }
@@ -89,7 +90,7 @@ nav li a{
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
     text-align: right;
 
 }
@@ -99,7 +100,7 @@ nav li a{
     font-weight: 700;
     background-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%)
     background-clip: text;
-    -webkit-background-clip: text;
+    
 }
 .gamer-description{
     color: #534C64;
@@ -124,8 +125,8 @@ nav li a{
     font-weight: 700;
     margin-top: 0;
 }
-.section{
-    padding: 30px;
+.section-gamer{
+    padding: 20px;
 }
 .funny-title{
     color: #0B0223;
@@ -208,4 +209,13 @@ nav li a{
     font-size: 16px;
     font-weight: 500;
 
+}
+@media screen and (max-width: 576px){
+    .header,.banner, .banner-gamer,
+     .banner-funny, .play-section, .footer-section{
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    
 }
