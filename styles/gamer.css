@@ -14,8 +14,7 @@
     padding: 30px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    text-align:center ;
+   
    
 }
 .text-title{
@@ -167,7 +166,7 @@ nav li a{
     font-weight: 700;
 
 }
-/
+
 .play-description{
     color: #534C64;
     text-align: center;
@@ -175,18 +174,38 @@ nav li a{
     font-weight: 400;
 
 }
-.Games{
-    display: flex;
+.footer-section{
+    background: #0B0223;
+    margin-top: 20px;
+    height: 400px;
+    
 }
-.games-icon{
-    background: #FFF;
-    padding: 70px;
-    border: 1px solid yellow;
-    color: #0B0223;
-    font-size: 20px;
-    font-weight: 600;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
+.footer{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+.footer-title{
+    color: #FFFFFF;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 60px;
+}
+.footer-description{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.footer-end{
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 
 }
